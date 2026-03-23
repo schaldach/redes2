@@ -10,4 +10,6 @@ Hoje, que temos o full duplex, não existem tantos desses problemas mas o CSMA/C
 arp reverso - dado o MAC, encontra o IP
 arp - dado o IP, encontra o MAC
 é a camada de enlace que utiliza o ARP e ARP-R
+
 nivelação do package tracer, tutoriais: https://siaiap84.univali.br/moodle/pluginfile.php/221170/mod_resource/content/1/Configura%C3%A7%C3%A3o%20B%C3%A1sica%20do%20Switch%20e%20do%20Dispositivo%20Final.pdf (slide 04)
+não existe um disco rígido, mas sim uma memória ROM, que é como se fosse uma memória fixa de fábrica nos PCs. E no PT as configurações são salvas nessa ROM.
