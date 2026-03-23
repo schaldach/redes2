@@ -1,0 +1,9 @@
+A camada de enlace (camada 2 da OSI) é dividida em 2: a camada lógica, LLC (Logical ... Control), e a camada física, MAC (Media access control, não o endereço MAC). 
+Os dados vêm de cima, e precisam ser traduzidos para o meio físico para chegarem em algum destino. Quem faz a conversão é a NIC, placa de rede, que converte os sinais para serem propagados pelo mieo físico.
+Os sinais digitais entram na placa de rede e são convertidos para o meio físico. E isso que é feito ou detectando e tratando colisões, ou evitando colisões (CSMA/CD -> evitar colisões, CSMA/CA -> tratar colisões).
+Como uma corrida de revezamento de bastão, (a estação) quem quer escutar o meio físico precisa capturar o token da rede (bastão) para fazer uma transmissão. E para acessar o meio físico é necessário o controle de acesso ao meio, MAC.
+(pode ser um cabo elétrico, fibra óptica, rede wireless, etc.).
+Se 2 estações tentam acessar o meio físico e transmitem ao mesmo tempo, ocorre uma colisão. Por isso que, quando as redes eram feitas com barramento, por ser half-duplex (ou só vai, ou só vem), era usado o CSMA/CA.
+Alguns desses sistemas perduram até hoje
+Hoje, que temos o full duplex, não existem tantos desses problemas mas o CSMA/CA ainda é usado
+802.11 - wifi, 802.15 - bluetooth
