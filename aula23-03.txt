@@ -7,3 +7,7 @@ Se 2 estações tentam acessar o meio físico e transmitem ao mesmo tempo, ocorr
 Alguns desses sistemas perduram até hoje
 Hoje, que temos o full duplex, não existem tantos desses problemas mas o CSMA/CA ainda é usado
 802.11 - wifi, 802.15 - bluetooth
+arp reverso - dado o MAC, encontra o IP
+arp - dado o IP, encontra o MAC
+é a camada de enlace que utiliza o ARP e ARP-R
+nivelação do package tracer, tutoriais: https://siaiap84.univali.br/moodle/pluginfile.php/221170/mod_resource/content/1/Configura%C3%A7%C3%A3o%20B%C3%A1sica%20do%20Switch%20e%20do%20Dispositivo%20Final.pdf (slide 04)
