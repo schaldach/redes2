@@ -1,0 +1,27 @@
+As rotas na internet não são conhecidas. É apenas buscado o endereço de rede, não o dispositivo. É sempre encontrado um caminho (não necessariamente único) para cada segmento de dados.
+O MAC na camada de enlace é o Media Access Control, não o MAC Adress.
+Encapsulamento é passar um protocolo por cima do outro, onde o segmento de um é o protocolo inteiro de cima, mais ou menos.
+Tudo que envolve Ethernet está no protocolo 802.X
+O alcance dos dispositivos que usamos define se estmaos numa PAN, LAN, WAN, etc... isso define o tipo de meio físico usado e os padrões dos meios físicos.
+imaginando a rede como uma estrada, podem ocorrer colisões (especialmente duplex e half-duplex). podemos evitar elas ou tratar elas.
+Muitas vezes, ao ocorrer um erro, é mais fácil recomeçar todo o processo do que tentar tratar cada erro.
+O endereço MAC é dividido em 2 partes
+
+A subrede de 2 roteadores conectados precisa ser a mesma para que eles se comuniquem.
+
+O ARP é o protocolo que, dado o endereço IP, ele encontra o endereço MAC. Existe o R-ARP, que dado o MAC, descobre o endereço IP.
+
+https://www.reddit.com/r/Network/comments/1ltc2ey/about_arp_a/?tl=pt-br
+ARP é o protocolo de resolução de endereços. É uma tabela que mapeia endereços IP para endereços MAC. Os computadores realmente se comunicam entre si através de MAC. O IP é uma abstração. Os dispositivos na sua rede local mostrarão o MAC desses dispositivos. Os IPs em outras redes (internet) mostrarão todos o MAC do seu roteador. O máximo que você vai aprender com ARP é o fabricante da NIC que tem esse IP. Os primeiros 6 caracteres são chamados de OUI, que você pode pesquisar.
+
+
+https://www.fortinet.com/br/resources/cyberglossary/what-is-arp
+Os caches ARP são mantidos em todos os sistemas operacionais em uma rede Ethernet IPv4 Sempre que um dispositivo solicita um endereço MAC para enviar dados para outro dispositivo conectado à LAN, o dispositivo verifica seu cache ARP para ver se a conexão do endereço IP ao MAC já foi concluída. Se ela existir, será desnecessário fazer uma nova solicitação. No entanto, se a conversão ainda não tiver sido realizada, a solicitação de endereços de rede será enviada e o ARP será executado.
+Enquanto o ARP usa um endereço IP para localizar um endereço MAC, o IARP usa um endereço MAC para localizar um endereço IP.
+
+Camada de enlace serve para fazer o contato entre a camada de rede e camada física (interface, endereço lógica e físico)
+
+CSMA - tratar colisões
+CA - evitar colisões (ou algo assim, talvez sejam a mesma coisa, mas existem os 2 métodos)
+
+Estudar bibliografia m1
